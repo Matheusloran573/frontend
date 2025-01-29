@@ -19,6 +19,4 @@ Aqui estão listadas as principais rotas da aplicação e suas descrições:
 | <kbd>/login</kbd>   | Página para login  
 | <kbd>/user</kbd>    | Página para usuários  
 
-<h2 id="figma">🎨 Design no Figma</h2>
 
-[🔗 Clique aqui para acessar o design no Figma](https://www.figma.com/design/TTMqBvBminbX9jPms48DXd/Mova-se-2.0?node-id=0-1&t=nwLJhweOKw2X07wv-1)
