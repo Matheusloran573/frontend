@@ -1,22 +1,16 @@
-[TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
-[ANGULAR__BADGE]: https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular
+# Página Login - Frontend
 
-<h1 align="center" style="font-weight: bold;"> Página de Login em Angular 💻</h1>
+Este é o frontend para o aplicativo Fitness App, a página permite que os usuários se autentiquem no sistema para acessar suas rotinas de exercícios e outros recursos.
 
-![angular][ANGULAR__BADGE]  
-![typescript][TYPESCRIPT__BADGE]  
+## Tecnologias Usadas
 
-Projeto simples de Login e Cadastro.
-O termo "mova-se" remete à ideia de ação, progresso e mudança.
+- **[Angular]** : framework
+- **[Typescript]** : linguagem
+- **[ngx-toastr]** :biblioteca de notificações no Angular
 
-<h2 id="routes">📍 Rotas da Aplicação</h2>
+## Funcionalidades
 
-Aqui estão listadas as principais rotas da aplicação e suas descrições:
-
-​| rota               | descrição                                          
-|---------------------|-----------------------------------------------------
-| <kbd>/signup</kbd>  | Página para cadastro  
-| <kbd>/login</kbd>   | Página para login  
-| <kbd>/user</kbd>    | Página para usuários  
-
-
+- **Autenticação de Usuários**:
+  - Registro e login de usuários com criptografia de senha.
+  - Geração de tokens JWT para autenticação segura.
+  - Auth Guard: Protege as rotas, permitindo acesso apenas para usuários autenticados.
